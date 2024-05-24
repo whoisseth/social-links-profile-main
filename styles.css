@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+}
+
+.card {
+  overflow: hidden;
+  width: 350px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 12%);
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* background-color: red; */
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.profile-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+.tag {
+  color: gray;
+  font-size: 12px;
+  text-align: center;
+}
+
+.​profile-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 20px;
+  padding-bottom: 28px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.​profile-link {
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  transition: all;
+}
+
+.​profile-link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+  cursor: pointer;
+}
